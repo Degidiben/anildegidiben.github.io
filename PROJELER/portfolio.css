@@ -1,0 +1,40 @@
+#AnılDegidiben { font-family: 'Times New Roman', Times, serif;
+    margin: auto;
+    font-size: 75px;
+
+
+}
+
+body {
+    background-color: dimgrey;
+}
+
+button{
+    background-color: brown;
+
+}
+
+#proje1{
+    width: 800px;
+    height: 800px;
+    float: left;
+    background-color: aqua;
+}
+
+#proje2{
+    width: 800px;
+    height: 800px;
+    float: left;
+    background-color: rgb(24, 47, 82);
+}
+
+#proje3{
+    width: 800px;
+    height: 800px;
+    float: left;
+    background-color: rgb(82, 24, 70);
+}
+
+#PROJELER{
+    
+}
