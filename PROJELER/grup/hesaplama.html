@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color:darkslategray ;">
+
+    <h1>Kumaş Birim Gider Hesabı</h1>
+    <img src="1.jpeg" height="400px" width="600px" alt="">
+
+
+
+    
+    <P><i> Pastal boyu</i></p>
+    <input type="number" id="pastal"><br>
+    <p><i> Kumaş Eni</i></p>
+    <input type="number" id="eni"><br>
+    <p><i> Kumaş Gramajı</i></p>
+    <input type="number" id="gramaj"><br>
+    <p><i> Pastaldaki İş Sayısı </i></p>
+    <input type="number" id="sayısı"><br><br>
+
+    <button onclick="hesapla()">Hesapla</button>
+
+
+    
+</body>
+
+<script>
+
+    var pastal = 0
+    var eni= 0
+    var gramaj= 0
+    var sayısı = 0
+    var sonuc= 0
+
+    function hesapla(){
+
+        var pastal=Number(document.getElementById("pastal").value)
+        var eni=Number(document.getElementById("eni").value)
+        var gramaj=Number(document.getElementById("gramaj").value)
+        var sayısı=Number(document.getElementById("sayısı").value)
+
+        console.log(pastal*eni*gramaj/sayısı)
+        document.write(pastal*eni*gramaj/sayısı)
+    
+    }
+
+
+
+
+</script>
+</html>
