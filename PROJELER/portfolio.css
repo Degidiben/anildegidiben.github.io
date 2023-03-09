@@ -1,3 +1,6 @@
+
+
+
 #AnılDegidiben { font-family: 'Times New Roman', Times, serif;
     margin: auto;
     font-size: 75px;
@@ -35,6 +38,67 @@ button{
     background-color: rgb(82, 24, 70);
 }
 
-#PROJELER{
+@media screen and (max-width:768px){
+
+    #AnılDegidiben { font-family: 'Times New Roman', Times, serif;
+        margin: auto;
+        font-size: 75px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     
+    
+    }
+    
+    body {
+        background-color: dimgrey;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    
+    }
+    
+    button{
+        background-color: brown;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    
+    
+    }
+    
+    #proje1{
+        width: 800px;
+        height: 800px;
+        float: left;
+        background-color: aqua;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    
+    }
+    
+    #proje2{
+        width: 800px;
+        height: 800px;
+        float: left;
+        background-color: rgb(24, 47, 82);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    
+    }
+    
+    #proje3{
+        width: 800px;
+        height: 800px;
+        float: left;
+        background-color: rgb(82, 24, 70);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    
+    }
+
+
 }
